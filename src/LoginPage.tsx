@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 export default function LoginPage() {
   return (
     <div className="flex flex-col md:flex-row h-screen">
-      <div className="flex flex-1 bg-gradient-to-r from-purple-600 to-blue-500 items-center justify-center p-6">
+      <div className="flex flex-1 bg-gradient-to-r from-purple-600 to-blue-400 items-center justify-center p-6">
         <h1 className="text-white text-2xl md:text-3xl font-bold text-center">
           Bem-vindo de volta!
         </h1>
@@ -39,9 +41,9 @@ export default function LoginPage() {
                 <input type="checkbox" className="mr-2" />
                 Lembrar-me
               </label>
-              <a href="#" className="text-blue-500 hover:underline">
+              <Link to="/password-recovery" className="text-blue-500 hover:underline">
                 Esqueceu sua senha?
-              </a>
+              </Link>
             </div>
 
             <button className="w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600 transition">
