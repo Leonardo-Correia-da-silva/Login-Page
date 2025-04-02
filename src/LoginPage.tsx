@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function LoginPage() {
   return (
     <div className="flex flex-col md:flex-row h-screen">
-      <div className="flex flex-1 bg-gradient-to-r from-purple-600 to-blue-400 items-center justify-center p-6">
+      <div className="flex flex-1 bg-gradient-to-r to-blue-400 items-center justify-center p-6">
         <h1 className="text-white text-2xl md:text-3xl font-bold text-center">
           Bem-vindo de volta!
         </h1>

@@ -1,6 +1,6 @@
 export default function PasswordRecovery() {
   return (
-    <div className="flex justify-center bg-gradient-to-r from-purple-600 to-blue-400 items-center h-screen bg-gray-100">
+    <div className="flex justify-center bg-gradient-to-r  to-blue-300 items-center h-screen bg-gray-100">
       <div className="w-full max-w-md p-8 shadow-lg rounded-lg bg-white">
         <h2 className="text-2xl font-semibold text-center mb-6">Esqueci a senha</h2>
 
