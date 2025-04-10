@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function PasswordRecovery() {
   return (
     <div className="flex justify-center bg-gradient-to-r  to-blue-300 items-center h-screen bg-gray-100">
@@ -17,14 +19,11 @@ export default function PasswordRecovery() {
               className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
-
-          <button className="w-32 h-10 bg-gray-400 text-white rounded-lg hover:bg-gray-600 transition">
-            Cancelar
-          </button>
-
-          <button className="w-32 h-10 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition ">
-            Enviar
-          </button>
+          <div className="">
+            <Link to='/' className="bg-gray-400 text-white rounded-md hover:bg-gray-600 transition px-6 py-2 text-lg">
+              Cancelar
+            </Link>
+          </div>
         </form>
       </div>
     </div>

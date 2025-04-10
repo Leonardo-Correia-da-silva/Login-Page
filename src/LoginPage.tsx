@@ -53,9 +53,9 @@ export default function LoginPage() {
 
           <p className="mt-4 text-sm text-center">
             Não tem uma conta?{" "}
-            <a href="#" className="text-blue-500 hover:underline">
+            <Link to="/creat-account" className="text-blue-500 hover:underline">
               Criar uma
-            </a>
+            </Link>
           </p>
         </div>
       </div>
