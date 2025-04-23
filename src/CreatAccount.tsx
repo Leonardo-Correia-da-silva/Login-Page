@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function CreatAccount() {
   const [dia, setDia] = useState("");
@@ -124,9 +125,13 @@ export default function CreatAccount() {
           </div>
 
           <div className="mt-7 flex justify-center items-center text-center">
-            <button className="p-2 border rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition space-x-2 w-1/2">
+            <button className="cursor-pointer p-2 border rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition space-x-2 w-1/2">
               Enviar
             </button>
+          </div>
+
+          <div className="flex justify-center mt-2">
+            <Link to="/" className="text-blue-500 cursor-pointer hover:underline">Já tem uma conta? </ Link>
           </div>
         </form>
       </div>

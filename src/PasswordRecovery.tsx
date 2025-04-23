@@ -20,7 +20,7 @@ export default function PasswordRecovery() {
             />
           </div>
           <div className="">
-            <Link to='/' className="bg-blue-500 text-white rounded-md hover:bg-blue-600 transition px-6 py-2 text-lg">
+            <Link to='/' className="cursor-pointer bg-blue-500 text-white rounded-md hover:bg-blue-600 transition px-6 py-2 text-lg">
               Cancelar
             </Link>
           </div>

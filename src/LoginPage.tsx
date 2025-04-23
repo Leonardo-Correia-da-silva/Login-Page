@@ -46,7 +46,7 @@ export default function LoginPage() {
               </Link>
             </div>
 
-            <button className="w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600 transition">
+            <button className="cursor-pointer w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600 transition">
               Entrar
             </button>
           </form>
