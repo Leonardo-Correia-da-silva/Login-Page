@@ -124,7 +124,7 @@ export default function CreatAccount() {
           </div>
 
           <div className="mt-7 flex justify-center items-center text-center">
-            <button className="p-2 border rounded-lg bg-blue-400 space-x-2 w-1/2">
+            <button className="p-2 border rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition space-x-2 w-1/2">
               Enviar
             </button>
           </div>
