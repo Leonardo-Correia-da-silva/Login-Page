@@ -123,8 +123,8 @@ export default function CreatAccount() {
             </input>
           </div>
 
-          <div className="mt-7 flex text-center items-center">
-            <button className="p-2 border rounded-lg flex items-center space-x-2 w-1/2">
+          <div className="mt-7 flex justify-center items-center text-center">
+            <button className="p-2 border rounded-lg bg-blue-400 space-x-2 w-1/2">
               Enviar
             </button>
           </div>
